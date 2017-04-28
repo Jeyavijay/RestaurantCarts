@@ -13,10 +13,13 @@
 @end
 
 @implementation AppDelegate
+@synthesize arrayCartData;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    arrayCartData = [[NSMutableArray alloc]init];
+
     return YES;
 }
 

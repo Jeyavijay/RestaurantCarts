@@ -7,15 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FD14635F0F52354CBAEE87B /* libPods-RestaurantBazaar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCCF32BE1D15B564AB810D5 /* libPods-RestaurantBazaar.a */; };
+		F250D7D71EB064CB00B5CBA3 /* RestaurantsListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F250D7D51EB064CB00B5CBA3 /* RestaurantsListTableViewCell.m */; };
+		F250D7D81EB064CB00B5CBA3 /* RestaurantsListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F250D7D61EB064CB00B5CBA3 /* RestaurantsListTableViewCell.xib */; };
+		F250D7DC1EB064DC00B5CBA3 /* BookingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F250D7DA1EB064DC00B5CBA3 /* BookingsTableViewCell.m */; };
+		F250D7DD1EB064DC00B5CBA3 /* BookingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F250D7DB1EB064DC00B5CBA3 /* BookingsTableViewCell.xib */; };
+		F250D7E61EB0F59600B5CBA3 /* RestaurantDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F250D7E51EB0F59600B5CBA3 /* RestaurantDetailsViewController.m */; };
+		F250D7EB1EB0F79E00B5CBA3 /* RestaurantDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F250D7E91EB0F79E00B5CBA3 /* RestaurantDetailTableViewCell.m */; };
+		F250D7EC1EB0F79E00B5CBA3 /* RestaurantDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F250D7EA1EB0F79E00B5CBA3 /* RestaurantDetailTableViewCell.xib */; };
+		F250D7F01EB0F7B700B5CBA3 /* RestaurantListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F250D7EE1EB0F7B700B5CBA3 /* RestaurantListTableViewCell.m */; };
+		F250D7F11EB0F7B700B5CBA3 /* RestaurantListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F250D7EF1EB0F7B700B5CBA3 /* RestaurantListTableViewCell.xib */; };
+		F250D7F61EB0FCF000B5CBA3 /* ASStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F250D7F51EB0FCF000B5CBA3 /* ASStarRatingView.m */; };
+		F250D7FE1EB0FD0200B5CBA3 /* half_selected_star.png in Resources */ = {isa = PBXBuildFile; fileRef = F250D7F81EB0FD0200B5CBA3 /* half_selected_star.png */; };
+		F250D7FF1EB0FD0200B5CBA3 /* half_selected_star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F250D7F91EB0FD0200B5CBA3 /* half_selected_star@2x.png */; };
+		F250D8001EB0FD0200B5CBA3 /* not_selected_star.png in Resources */ = {isa = PBXBuildFile; fileRef = F250D7FA1EB0FD0200B5CBA3 /* not_selected_star.png */; };
+		F250D8011EB0FD0200B5CBA3 /* not_selected_star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F250D7FB1EB0FD0200B5CBA3 /* not_selected_star@2x.png */; };
+		F250D8021EB0FD0200B5CBA3 /* selected_star.png in Resources */ = {isa = PBXBuildFile; fileRef = F250D7FC1EB0FD0200B5CBA3 /* selected_star.png */; };
+		F250D8031EB0FD0200B5CBA3 /* selected_star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F250D7FD1EB0FD0200B5CBA3 /* selected_star@2x.png */; };
+		F250D8131EB1B8EC00B5CBA3 /* QuantityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F250D8121EB1B8EC00B5CBA3 /* QuantityViewController.m */; };
+		F250D8161EB23A3E00B5CBA3 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F250D8151EB23A3E00B5CBA3 /* PassKit.framework */; };
+		F263040D1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F263040B1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.m */; };
+		F263040E1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F263040C1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.xib */; };
+		F26304121EB268B900EEDEE9 /* EditOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F26304101EB268B900EEDEE9 /* EditOrderTableViewCell.m */; };
+		F26304131EB268B900EEDEE9 /* EditOrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26304111EB268B900EEDEE9 /* EditOrderTableViewCell.xib */; };
+		F26304161EB3408400EEDEE9 /* ShippingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26304151EB3408400EEDEE9 /* ShippingViewController.m */; };
+		F26304191EB344B600EEDEE9 /* orderConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26304181EB344B600EEDEE9 /* orderConfirmationViewController.m */; };
 		F2688DB01EAF5D2000D533DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2688DAF1EAF5D2000D533DF /* main.m */; };
 		F2688DB31EAF5D2000D533DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2688DB21EAF5D2000D533DF /* AppDelegate.m */; };
 		F2688DB61EAF5D2000D533DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2688DB51EAF5D2000D533DF /* ViewController.m */; };
 		F2688DB91EAF5D2000D533DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2688DB71EAF5D2000D533DF /* Main.storyboard */; };
 		F2688DBB1EAF5D2000D533DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2688DBA1EAF5D2000D533DF /* Assets.xcassets */; };
 		F2688DBE1EAF5D2000D533DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2688DBC1EAF5D2000D533DF /* LaunchScreen.storyboard */; };
+		F2688DC81EAFAEA700D533DF /* BookingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2688DC71EAFAEA700D533DF /* BookingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5BB99EE20BF961E705799AC9 /* Pods-RestaurantBazaar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantBazaar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestaurantBazaar/Pods-RestaurantBazaar.debug.xcconfig"; sourceTree = "<group>"; };
+		ABCCF32BE1D15B564AB810D5 /* libPods-RestaurantBazaar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RestaurantBazaar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29196EC2A74C921060C1F3B /* Pods-RestaurantBazaar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantBazaar.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestaurantBazaar/Pods-RestaurantBazaar.release.xcconfig"; sourceTree = "<group>"; };
+		F250D7D41EB064CB00B5CBA3 /* RestaurantsListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantsListTableViewCell.h; sourceTree = "<group>"; };
+		F250D7D51EB064CB00B5CBA3 /* RestaurantsListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantsListTableViewCell.m; sourceTree = "<group>"; };
+		F250D7D61EB064CB00B5CBA3 /* RestaurantsListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantsListTableViewCell.xib; sourceTree = "<group>"; };
+		F250D7D91EB064DC00B5CBA3 /* BookingsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingsTableViewCell.h; sourceTree = "<group>"; };
+		F250D7DA1EB064DC00B5CBA3 /* BookingsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingsTableViewCell.m; sourceTree = "<group>"; };
+		F250D7DB1EB064DC00B5CBA3 /* BookingsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookingsTableViewCell.xib; sourceTree = "<group>"; };
+		F250D7E41EB0F59600B5CBA3 /* RestaurantDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetailsViewController.h; sourceTree = "<group>"; };
+		F250D7E51EB0F59600B5CBA3 /* RestaurantDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetailsViewController.m; sourceTree = "<group>"; };
+		F250D7E81EB0F79E00B5CBA3 /* RestaurantDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetailTableViewCell.h; sourceTree = "<group>"; };
+		F250D7E91EB0F79E00B5CBA3 /* RestaurantDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetailTableViewCell.m; sourceTree = "<group>"; };
+		F250D7EA1EB0F79E00B5CBA3 /* RestaurantDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantDetailTableViewCell.xib; sourceTree = "<group>"; };
+		F250D7ED1EB0F7B700B5CBA3 /* RestaurantListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantListTableViewCell.h; sourceTree = "<group>"; };
+		F250D7EE1EB0F7B700B5CBA3 /* RestaurantListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantListTableViewCell.m; sourceTree = "<group>"; };
+		F250D7EF1EB0F7B700B5CBA3 /* RestaurantListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantListTableViewCell.xib; sourceTree = "<group>"; };
+		F250D7F41EB0FCF000B5CBA3 /* ASStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASStarRatingView.h; sourceTree = "<group>"; };
+		F250D7F51EB0FCF000B5CBA3 /* ASStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASStarRatingView.m; sourceTree = "<group>"; };
+		F250D7F81EB0FD0200B5CBA3 /* half_selected_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = half_selected_star.png; sourceTree = "<group>"; };
+		F250D7F91EB0FD0200B5CBA3 /* half_selected_star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "half_selected_star@2x.png"; sourceTree = "<group>"; };
+		F250D7FA1EB0FD0200B5CBA3 /* not_selected_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = not_selected_star.png; sourceTree = "<group>"; };
+		F250D7FB1EB0FD0200B5CBA3 /* not_selected_star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "not_selected_star@2x.png"; sourceTree = "<group>"; };
+		F250D7FC1EB0FD0200B5CBA3 /* selected_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected_star.png; sourceTree = "<group>"; };
+		F250D7FD1EB0FD0200B5CBA3 /* selected_star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected_star@2x.png"; sourceTree = "<group>"; };
+		F250D8111EB1B8EC00B5CBA3 /* QuantityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantityViewController.h; sourceTree = "<group>"; };
+		F250D8121EB1B8EC00B5CBA3 /* QuantityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuantityViewController.m; sourceTree = "<group>"; };
+		F250D8151EB23A3E00B5CBA3 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		F263040A1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasketCheckOutTableViewCell.h; sourceTree = "<group>"; };
+		F263040B1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasketCheckOutTableViewCell.m; sourceTree = "<group>"; };
+		F263040C1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasketCheckOutTableViewCell.xib; sourceTree = "<group>"; };
+		F263040F1EB268B900EEDEE9 /* EditOrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditOrderTableViewCell.h; sourceTree = "<group>"; };
+		F26304101EB268B900EEDEE9 /* EditOrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditOrderTableViewCell.m; sourceTree = "<group>"; };
+		F26304111EB268B900EEDEE9 /* EditOrderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditOrderTableViewCell.xib; sourceTree = "<group>"; };
+		F26304141EB3408400EEDEE9 /* ShippingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShippingViewController.h; sourceTree = "<group>"; };
+		F26304151EB3408400EEDEE9 /* ShippingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShippingViewController.m; sourceTree = "<group>"; };
+		F26304171EB344B600EEDEE9 /* orderConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = orderConfirmationViewController.h; sourceTree = "<group>"; };
+		F26304181EB344B600EEDEE9 /* orderConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = orderConfirmationViewController.m; sourceTree = "<group>"; };
 		F2688DAB1EAF5D2000D533DF /* RestaurantBazaar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantBazaar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2688DAF1EAF5D2000D533DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2688DB11EAF5D2000D533DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +90,8 @@
 		F2688DBA1EAF5D2000D533DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2688DBD1EAF5D2000D533DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2688DBF1EAF5D2000D533DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2688DC61EAFAEA700D533DF /* BookingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingsViewController.h; sourceTree = "<group>"; };
+		F2688DC71EAFAEA700D533DF /* BookingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +99,101 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F250D8161EB23A3E00B5CBA3 /* PassKit.framework in Frameworks */,
+				3FD14635F0F52354CBAEE87B /* libPods-RestaurantBazaar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6AD20F0AD569E2DAA6706A50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BB99EE20BF961E705799AC9 /* Pods-RestaurantBazaar.debug.xcconfig */,
+				C29196EC2A74C921060C1F3B /* Pods-RestaurantBazaar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F250D7DE1EB064E900B5CBA3 /* Bookings */ = {
+			isa = PBXGroup;
+			children = (
+				F250D7D91EB064DC00B5CBA3 /* BookingsTableViewCell.h */,
+				F250D7DA1EB064DC00B5CBA3 /* BookingsTableViewCell.m */,
+				F250D7DB1EB064DC00B5CBA3 /* BookingsTableViewCell.xib */,
+				F263040A1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.h */,
+				F263040B1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.m */,
+				F263040C1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.xib */,
+				F263040F1EB268B900EEDEE9 /* EditOrderTableViewCell.h */,
+				F26304101EB268B900EEDEE9 /* EditOrderTableViewCell.m */,
+				F26304111EB268B900EEDEE9 /* EditOrderTableViewCell.xib */,
+			);
+			name = Bookings;
+			sourceTree = "<group>";
+		};
+		F250D7DF1EB064FA00B5CBA3 /* Restaurants */ = {
+			isa = PBXGroup;
+			children = (
+				F250D7D41EB064CB00B5CBA3 /* RestaurantsListTableViewCell.h */,
+				F250D7D51EB064CB00B5CBA3 /* RestaurantsListTableViewCell.m */,
+				F250D7D61EB064CB00B5CBA3 /* RestaurantsListTableViewCell.xib */,
+			);
+			name = Restaurants;
+			sourceTree = "<group>";
+		};
+		F250D7E71EB0F5DD00B5CBA3 /* RestaurantDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F250D7E81EB0F79E00B5CBA3 /* RestaurantDetailTableViewCell.h */,
+				F250D7E91EB0F79E00B5CBA3 /* RestaurantDetailTableViewCell.m */,
+				F250D7EA1EB0F79E00B5CBA3 /* RestaurantDetailTableViewCell.xib */,
+				F250D7ED1EB0F7B700B5CBA3 /* RestaurantListTableViewCell.h */,
+				F250D7EE1EB0F7B700B5CBA3 /* RestaurantListTableViewCell.m */,
+				F250D7EF1EB0F7B700B5CBA3 /* RestaurantListTableViewCell.xib */,
+			);
+			name = RestaurantDetails;
+			sourceTree = "<group>";
+		};
+		F250D7F31EB0FCC100B5CBA3 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F250D7F71EB0FCF700B5CBA3 /* Stars */,
+			);
+			name = HelperClasses;
+			sourceTree = "<group>";
+		};
+		F250D7F71EB0FCF700B5CBA3 /* Stars */ = {
+			isa = PBXGroup;
+			children = (
+				F250D7F41EB0FCF000B5CBA3 /* ASStarRatingView.h */,
+				F250D7F51EB0FCF000B5CBA3 /* ASStarRatingView.m */,
+				F250D7F81EB0FD0200B5CBA3 /* half_selected_star.png */,
+				F250D7F91EB0FD0200B5CBA3 /* half_selected_star@2x.png */,
+				F250D7FA1EB0FD0200B5CBA3 /* not_selected_star.png */,
+				F250D7FB1EB0FD0200B5CBA3 /* not_selected_star@2x.png */,
+				F250D7FC1EB0FD0200B5CBA3 /* selected_star.png */,
+				F250D7FD1EB0FD0200B5CBA3 /* selected_star@2x.png */,
+			);
+			name = Stars;
+			sourceTree = "<group>";
+		};
+		F250D8141EB23A3E00B5CBA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F250D8151EB23A3E00B5CBA3 /* PassKit.framework */,
+				ABCCF32BE1D15B564AB810D5 /* libPods-RestaurantBazaar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F2688DA21EAF5D2000D533DF = {
 			isa = PBXGroup;
 			children = (
 				F2688DAD1EAF5D2000D533DF /* RestaurantBazaar */,
 				F2688DAC1EAF5D2000D533DF /* Products */,
+				F250D8141EB23A3E00B5CBA3 /* Frameworks */,
+				6AD20F0AD569E2DAA6706A50 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +208,22 @@
 		F2688DAD1EAF5D2000D533DF /* RestaurantBazaar */ = {
 			isa = PBXGroup;
 			children = (
+				F250D7F31EB0FCC100B5CBA3 /* HelperClasses */,
+				F2688DC51EAFAE7C00D533DF /* TableViewCells */,
 				F2688DB11EAF5D2000D533DF /* AppDelegate.h */,
 				F2688DB21EAF5D2000D533DF /* AppDelegate.m */,
 				F2688DB41EAF5D2000D533DF /* ViewController.h */,
 				F2688DB51EAF5D2000D533DF /* ViewController.m */,
+				F2688DC61EAFAEA700D533DF /* BookingsViewController.h */,
+				F2688DC71EAFAEA700D533DF /* BookingsViewController.m */,
+				F250D7E41EB0F59600B5CBA3 /* RestaurantDetailsViewController.h */,
+				F250D7E51EB0F59600B5CBA3 /* RestaurantDetailsViewController.m */,
+				F250D8111EB1B8EC00B5CBA3 /* QuantityViewController.h */,
+				F250D8121EB1B8EC00B5CBA3 /* QuantityViewController.m */,
+				F26304141EB3408400EEDEE9 /* ShippingViewController.h */,
+				F26304151EB3408400EEDEE9 /* ShippingViewController.m */,
+				F26304171EB344B600EEDEE9 /* orderConfirmationViewController.h */,
+				F26304181EB344B600EEDEE9 /* orderConfirmationViewController.m */,
 				F2688DB71EAF5D2000D533DF /* Main.storyboard */,
 				F2688DBA1EAF5D2000D533DF /* Assets.xcassets */,
 				F2688DBC1EAF5D2000D533DF /* LaunchScreen.storyboard */,
@@ -79,6 +241,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F2688DC51EAFAE7C00D533DF /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				F250D7E71EB0F5DD00B5CBA3 /* RestaurantDetails */,
+				F250D7DF1EB064FA00B5CBA3 /* Restaurants */,
+				F250D7DE1EB064E900B5CBA3 /* Bookings */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2688DC21EAF5D2000D533DF /* Build configuration list for PBXNativeTarget "RestaurantBazaar" */;
 			buildPhases = (
+				E2D238E5AB80770877F0D6BA /* [CP] Check Pods Manifest.lock */,
 				F2688DA71EAF5D2000D533DF /* Sources */,
 				F2688DA81EAF5D2000D533DF /* Frameworks */,
 				F2688DA91EAF5D2000D533DF /* Resources */,
+				6C5365A813905C1C56B9B042 /* [CP] Embed Pods Frameworks */,
+				F41C7D9E03C7DB372C2E45B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,7 +285,7 @@
 				TargetAttributes = {
 					F2688DAA1EAF5D2000D533DF = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = QGE738B369;
+						DevelopmentTeam = EQ66433AJ7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,21 +313,93 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F250D8001EB0FD0200B5CBA3 /* not_selected_star.png in Resources */,
+				F250D7F11EB0F7B700B5CBA3 /* RestaurantListTableViewCell.xib in Resources */,
+				F250D7DD1EB064DC00B5CBA3 /* BookingsTableViewCell.xib in Resources */,
+				F250D7D81EB064CB00B5CBA3 /* RestaurantsListTableViewCell.xib in Resources */,
 				F2688DBE1EAF5D2000D533DF /* LaunchScreen.storyboard in Resources */,
+				F250D8011EB0FD0200B5CBA3 /* not_selected_star@2x.png in Resources */,
+				F26304131EB268B900EEDEE9 /* EditOrderTableViewCell.xib in Resources */,
+				F250D8021EB0FD0200B5CBA3 /* selected_star.png in Resources */,
+				F263040E1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.xib in Resources */,
+				F250D7EC1EB0F79E00B5CBA3 /* RestaurantDetailTableViewCell.xib in Resources */,
+				F250D8031EB0FD0200B5CBA3 /* selected_star@2x.png in Resources */,
+				F250D7FE1EB0FD0200B5CBA3 /* half_selected_star.png in Resources */,
 				F2688DBB1EAF5D2000D533DF /* Assets.xcassets in Resources */,
 				F2688DB91EAF5D2000D533DF /* Main.storyboard in Resources */,
+				F250D7FF1EB0FD0200B5CBA3 /* half_selected_star@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C5365A813905C1C56B9B042 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestaurantBazaar/Pods-RestaurantBazaar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2D238E5AB80770877F0D6BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F41C7D9E03C7DB372C2E45B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestaurantBazaar/Pods-RestaurantBazaar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F2688DA71EAF5D2000D533DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F250D7D71EB064CB00B5CBA3 /* RestaurantsListTableViewCell.m in Sources */,
+				F250D7F01EB0F7B700B5CBA3 /* RestaurantListTableViewCell.m in Sources */,
+				F26304161EB3408400EEDEE9 /* ShippingViewController.m in Sources */,
+				F250D7EB1EB0F79E00B5CBA3 /* RestaurantDetailTableViewCell.m in Sources */,
+				F26304191EB344B600EEDEE9 /* orderConfirmationViewController.m in Sources */,
+				F263040D1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.m in Sources */,
 				F2688DB61EAF5D2000D533DF /* ViewController.m in Sources */,
+				F26304121EB268B900EEDEE9 /* EditOrderTableViewCell.m in Sources */,
 				F2688DB31EAF5D2000D533DF /* AppDelegate.m in Sources */,
+				F250D7F61EB0FCF000B5CBA3 /* ASStarRatingView.m in Sources */,
+				F250D7DC1EB064DC00B5CBA3 /* BookingsTableViewCell.m in Sources */,
+				F250D7E61EB0F59600B5CBA3 /* RestaurantDetailsViewController.m in Sources */,
+				F250D8131EB1B8EC00B5CBA3 /* QuantityViewController.m in Sources */,
+				F2688DC81EAFAEA700D533DF /* BookingsViewController.m in Sources */,
 				F2688DB01EAF5D2000D533DF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,24 +518,28 @@
 		};
 		F2688DC31EAF5D2000D533DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB99EE20BF961E705799AC9 /* Pods-RestaurantBazaar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QGE738B369;
+				DEVELOPMENT_TEAM = EQ66433AJ7;
 				INFOPLIST_FILE = RestaurantBazaar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jeyavijay.RestaurantBazaar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluggdd.RestaurantBazaar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		F2688DC41EAF5D2000D533DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C29196EC2A74C921060C1F3B /* Pods-RestaurantBazaar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QGE738B369;
+				DEVELOPMENT_TEAM = EQ66433AJ7;
 				INFOPLIST_FILE = RestaurantBazaar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jeyavijay.RestaurantBazaar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluggdd.RestaurantBazaar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -312,6 +563,7 @@
 				F2688DC41EAF5D2000D533DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
