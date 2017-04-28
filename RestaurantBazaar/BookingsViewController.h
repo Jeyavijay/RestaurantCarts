@@ -2,7 +2,7 @@
 //  BookingsViewController.h
 //  RestaurantBazaar
 //
-//  Created by Jeyavijay on 25/04/17.
+//  Created by Jeyavijay on 26/04/17.
 //  Copyright © 2017 Jeyavijay N. All rights reserved.
 //
 

@@ -187,6 +187,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F263041A1EB36BF200EEDEE9 /* TabBarClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F2688DB41EAF5D2000D533DF /* ViewController.h */,
+				F2688DB51EAF5D2000D533DF /* ViewController.m */,
+				F2688DC61EAFAEA700D533DF /* BookingsViewController.h */,
+				F2688DC71EAFAEA700D533DF /* BookingsViewController.m */,
+				F250D7E41EB0F59600B5CBA3 /* RestaurantDetailsViewController.h */,
+				F250D7E51EB0F59600B5CBA3 /* RestaurantDetailsViewController.m */,
+				F250D8111EB1B8EC00B5CBA3 /* QuantityViewController.h */,
+				F250D8121EB1B8EC00B5CBA3 /* QuantityViewController.m */,
+				F26304141EB3408400EEDEE9 /* ShippingViewController.h */,
+				F26304151EB3408400EEDEE9 /* ShippingViewController.m */,
+				F26304171EB344B600EEDEE9 /* orderConfirmationViewController.h */,
+				F26304181EB344B600EEDEE9 /* orderConfirmationViewController.m */,
+			);
+			name = TabBarClasses;
+			sourceTree = "<group>";
+		};
 		F2688DA21EAF5D2000D533DF = {
 			isa = PBXGroup;
 			children = (
@@ -208,22 +227,11 @@
 		F2688DAD1EAF5D2000D533DF /* RestaurantBazaar */ = {
 			isa = PBXGroup;
 			children = (
+				F263041A1EB36BF200EEDEE9 /* TabBarClasses */,
 				F250D7F31EB0FCC100B5CBA3 /* HelperClasses */,
 				F2688DC51EAFAE7C00D533DF /* TableViewCells */,
 				F2688DB11EAF5D2000D533DF /* AppDelegate.h */,
 				F2688DB21EAF5D2000D533DF /* AppDelegate.m */,
-				F2688DB41EAF5D2000D533DF /* ViewController.h */,
-				F2688DB51EAF5D2000D533DF /* ViewController.m */,
-				F2688DC61EAFAEA700D533DF /* BookingsViewController.h */,
-				F2688DC71EAFAEA700D533DF /* BookingsViewController.m */,
-				F250D7E41EB0F59600B5CBA3 /* RestaurantDetailsViewController.h */,
-				F250D7E51EB0F59600B5CBA3 /* RestaurantDetailsViewController.m */,
-				F250D8111EB1B8EC00B5CBA3 /* QuantityViewController.h */,
-				F250D8121EB1B8EC00B5CBA3 /* QuantityViewController.m */,
-				F26304141EB3408400EEDEE9 /* ShippingViewController.h */,
-				F26304151EB3408400EEDEE9 /* ShippingViewController.m */,
-				F26304171EB344B600EEDEE9 /* orderConfirmationViewController.h */,
-				F26304181EB344B600EEDEE9 /* orderConfirmationViewController.m */,
 				F2688DB71EAF5D2000D533DF /* Main.storyboard */,
 				F2688DBA1EAF5D2000D533DF /* Assets.xcassets */,
 				F2688DBC1EAF5D2000D533DF /* LaunchScreen.storyboard */,
