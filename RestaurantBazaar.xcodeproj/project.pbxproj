@@ -217,6 +217,15 @@
 			name = TabBarClasses;
 			sourceTree = "<group>";
 		};
+		F263045F1EB381D600EEDEE9 /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				F263045B1EB37C5600EEDEE9 /* MBProgressHUD.h */,
+				F263045C1EB37C5600EEDEE9 /* MBProgressHUD.m */,
+			);
+			name = ProgressBar;
+			sourceTree = "<group>";
+		};
 		F2688DA21EAF5D2000D533DF = {
 			isa = PBXGroup;
 			children = (
@@ -238,8 +247,7 @@
 		F2688DAD1EAF5D2000D533DF /* RestaurantBazaar */ = {
 			isa = PBXGroup;
 			children = (
-				F263045B1EB37C5600EEDEE9 /* MBProgressHUD.h */,
-				F263045C1EB37C5600EEDEE9 /* MBProgressHUD.m */,
+				F263045F1EB381D600EEDEE9 /* ProgressBar */,
 				F263041A1EB36BF200EEDEE9 /* TabBarClasses */,
 				F250D7F31EB0FCC100B5CBA3 /* HelperClasses */,
 				F2688DC51EAFAE7C00D533DF /* TableViewCells */,
