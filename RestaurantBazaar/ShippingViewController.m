@@ -31,6 +31,10 @@
     newViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil]
                          instantiateViewControllerWithIdentifier:@"BookingsViewController"];
     [self.tabBarController setSelectedIndex:0];
+    NSString *appDomain = [[NSBundle mainBundle] bundleIdentifier];
+    [[NSUserDefaults standardUserDefaults] removePersistentDomainForName:appDomain];
+    [[[[[self tabBarController] tabBar] items]
+      objectAtIndex:1] setBadgeValue:nil];
 
     [self.navigationController pushViewController:newViewController animated:YES];
 }
