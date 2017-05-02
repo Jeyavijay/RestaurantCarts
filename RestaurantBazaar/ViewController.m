@@ -9,12 +9,18 @@
 #import "ViewController.h"
 #import "RestaurantsListTableViewCell.h"
 #import "RestaurantDetailsViewController.h"
+#import "AppDelegate.h"
+
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
 
 
 @interface ViewController ()
 {
     NSMutableArray *arrayRestaurantDetails;
+    int page;
+    BOOL isPageRefreshing;
+    AppDelegate *appDelegate;
 
 
 }
@@ -26,6 +32,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    appDelegate=(AppDelegate*)[[UIApplication sharedApplication] delegate];
     arrayRestaurantDetails = [[NSMutableArray alloc]init];
     [tableViewRestaurants registerNib:[UINib nibWithNibName:@"RestaurantsListTableViewCell" bundle:nil] forCellReuseIdentifier:@"RCELL"];
     NSString *appDomain = [[NSBundle mainBundle] bundleIdentifier];
@@ -224,8 +231,29 @@
 {
     return 0;
 }
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    if(self.tableViewRestaurants.contentOffset.y >= (self.tableViewRestaurants.contentSize.height - self.tableViewRestaurants.bounds.size.height))
+    {
+        if(isPageRefreshing==NO){
+            isPageRefreshing=YES;
+            [appDelegate showIndicator:@"Loading" view1:self.view];
+            [self.tableViewRestaurants reloadData];
 
+            
+            [UIView animateWithDuration:5.0
+                             animations:^{
+                                 self.view.alpha = 1.0;
+                             }
+                             completion:^(BOOL finished)
+            {
+                [appDelegate hideIndicator];
+                isPageRefreshing=NO;
 
+            }];
+        }
+    }
+}
 
 
 

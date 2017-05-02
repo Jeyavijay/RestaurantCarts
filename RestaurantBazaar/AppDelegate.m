@@ -13,12 +13,11 @@
 @end
 
 @implementation AppDelegate
-@synthesize arrayCartData;
+
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    arrayCartData = [[NSMutableArray alloc]init];
 
     return YES;
 }
@@ -48,6 +47,23 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(void)showIndicator:(NSString *)withTitleString view1:(UIView *)currentView
+{
+    // The hud will dispable all input on the view
+    actIndicator = [[MBProgressHUD alloc] initWithView:currentView];
+    // Add HUD to screen
+    [currentView addSubview:actIndicator];
+    actIndicator.labelText = withTitleString;
+    [actIndicator show:YES];
+}
+
+-(void)hideIndicator
+{
+    [actIndicator show:NO];
+    [actIndicator removeFromSuperview];
+    actIndicator = nil;
 }
 
 

@@ -25,13 +25,16 @@
 		F250D8021EB0FD0200B5CBA3 /* selected_star.png in Resources */ = {isa = PBXBuildFile; fileRef = F250D7FC1EB0FD0200B5CBA3 /* selected_star.png */; };
 		F250D8031EB0FD0200B5CBA3 /* selected_star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F250D7FD1EB0FD0200B5CBA3 /* selected_star@2x.png */; };
 		F250D8131EB1B8EC00B5CBA3 /* QuantityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F250D8121EB1B8EC00B5CBA3 /* QuantityViewController.m */; };
-		F250D8161EB23A3E00B5CBA3 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F250D8151EB23A3E00B5CBA3 /* PassKit.framework */; };
 		F263040D1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F263040B1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.m */; };
 		F263040E1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F263040C1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.xib */; };
 		F26304121EB268B900EEDEE9 /* EditOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F26304101EB268B900EEDEE9 /* EditOrderTableViewCell.m */; };
 		F26304131EB268B900EEDEE9 /* EditOrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26304111EB268B900EEDEE9 /* EditOrderTableViewCell.xib */; };
 		F26304161EB3408400EEDEE9 /* ShippingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26304151EB3408400EEDEE9 /* ShippingViewController.m */; };
 		F26304191EB344B600EEDEE9 /* orderConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26304181EB344B600EEDEE9 /* orderConfirmationViewController.m */; };
+		F26304371EB376D600EEDEE9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26304361EB376D600EEDEE9 /* QuartzCore.framework */; };
+		F26304451EB379A100EEDEE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26304441EB379A100EEDEE9 /* CoreGraphics.framework */; };
+		F26304471EB379DC00EEDEE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26304461EB379DC00EEDEE9 /* UIKit.framework */; };
+		F263045D1EB37C5600EEDEE9 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F263045C1EB37C5600EEDEE9 /* MBProgressHUD.m */; };
 		F2688DB01EAF5D2000D533DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2688DAF1EAF5D2000D533DF /* main.m */; };
 		F2688DB31EAF5D2000D533DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2688DB21EAF5D2000D533DF /* AppDelegate.m */; };
 		F2688DB61EAF5D2000D533DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2688DB51EAF5D2000D533DF /* ViewController.m */; };
@@ -69,7 +72,6 @@
 		F250D7FD1EB0FD0200B5CBA3 /* selected_star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected_star@2x.png"; sourceTree = "<group>"; };
 		F250D8111EB1B8EC00B5CBA3 /* QuantityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantityViewController.h; sourceTree = "<group>"; };
 		F250D8121EB1B8EC00B5CBA3 /* QuantityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuantityViewController.m; sourceTree = "<group>"; };
-		F250D8151EB23A3E00B5CBA3 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
 		F263040A1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasketCheckOutTableViewCell.h; sourceTree = "<group>"; };
 		F263040B1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasketCheckOutTableViewCell.m; sourceTree = "<group>"; };
 		F263040C1EB25B6C00EEDEE9 /* BasketCheckOutTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasketCheckOutTableViewCell.xib; sourceTree = "<group>"; };
@@ -80,6 +82,11 @@
 		F26304151EB3408400EEDEE9 /* ShippingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShippingViewController.m; sourceTree = "<group>"; };
 		F26304171EB344B600EEDEE9 /* orderConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = orderConfirmationViewController.h; sourceTree = "<group>"; };
 		F26304181EB344B600EEDEE9 /* orderConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = orderConfirmationViewController.m; sourceTree = "<group>"; };
+		F26304361EB376D600EEDEE9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F26304441EB379A100EEDEE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F26304461EB379DC00EEDEE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F263045B1EB37C5600EEDEE9 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F263045C1EB37C5600EEDEE9 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		F2688DAB1EAF5D2000D533DF /* RestaurantBazaar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantBazaar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2688DAF1EAF5D2000D533DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2688DB11EAF5D2000D533DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,7 +106,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F250D8161EB23A3E00B5CBA3 /* PassKit.framework in Frameworks */,
+				F26304471EB379DC00EEDEE9 /* UIKit.framework in Frameworks */,
+				F26304451EB379A100EEDEE9 /* CoreGraphics.framework in Frameworks */,
+				F26304371EB376D600EEDEE9 /* QuartzCore.framework in Frameworks */,
 				3FD14635F0F52354CBAEE87B /* libPods-RestaurantBazaar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,7 +190,9 @@
 		F250D8141EB23A3E00B5CBA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F250D8151EB23A3E00B5CBA3 /* PassKit.framework */,
+				F26304461EB379DC00EEDEE9 /* UIKit.framework */,
+				F26304441EB379A100EEDEE9 /* CoreGraphics.framework */,
+				F26304361EB376D600EEDEE9 /* QuartzCore.framework */,
 				ABCCF32BE1D15B564AB810D5 /* libPods-RestaurantBazaar.a */,
 			);
 			name = Frameworks;
@@ -206,6 +217,15 @@
 			name = TabBarClasses;
 			sourceTree = "<group>";
 		};
+		F263045F1EB381D600EEDEE9 /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				F263045B1EB37C5600EEDEE9 /* MBProgressHUD.h */,
+				F263045C1EB37C5600EEDEE9 /* MBProgressHUD.m */,
+			);
+			name = ProgressBar;
+			sourceTree = "<group>";
+		};
 		F2688DA21EAF5D2000D533DF = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +247,7 @@
 		F2688DAD1EAF5D2000D533DF /* RestaurantBazaar */ = {
 			isa = PBXGroup;
 			children = (
+				F263045F1EB381D600EEDEE9 /* ProgressBar */,
 				F263041A1EB36BF200EEDEE9 /* TabBarClasses */,
 				F250D7F31EB0FCC100B5CBA3 /* HelperClasses */,
 				F2688DC51EAFAE7C00D533DF /* TableViewCells */,
@@ -409,6 +430,7 @@
 				F250D8131EB1B8EC00B5CBA3 /* QuantityViewController.m in Sources */,
 				F2688DC81EAFAEA700D533DF /* BookingsViewController.m in Sources */,
 				F2688DB01EAF5D2000D533DF /* main.m in Sources */,
+				F263045D1EB37C5600EEDEE9 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

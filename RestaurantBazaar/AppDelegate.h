@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBProgressHUD.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    MBProgressHUD *actIndicator;
+}
 @property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) NSMutableArray *arrayCartData;
+-(void)showIndicator:(NSString *)withTitleString view1:(UIView *)currentView;
+-(void)hideIndicator;
 
 
 
